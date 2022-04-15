@@ -8,6 +8,7 @@ function App() {
         <Link to="/">Questions</Link>
         <Link to="new">New Question</Link>
       </nav>
+      <hr />
       <Routes>
         <Route path="/" element={<Questions />} />
         <Route path="new" element={<NewQuestion />} />
